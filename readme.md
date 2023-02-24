@@ -1,9 +1,11 @@
  # Preliminary Build on Elastic Observability + Prometheus
  
+ ![Screenshot 2023-02-24 at 5 08 52 PM](https://user-images.githubusercontent.com/30084404/221318202-2308b487-ca6b-4f3c-84fd-531b6d44178c.png)
+ 
   Anonymous metrics engine built on top of the Leto Caching Gateway
  
- ## Anonymous Gateway Metrics API 
- 
+ ## Anonymous Gateway Metrics API
+
 With a simple public website or a HTTP GET request, you can tell how many times an IPFS object was requested/served to a user.
 API endpoint URL
 The main public API endpoint URL for LetoMetrics is https://leto.metrics.gg. All endpoints documented should be made relative to this root URL. 
@@ -41,16 +43,7 @@ Hello leto! 😎
 
 Please note that subdomain resolution is only supported with [CIDv1](https://docs.ipfs.io/concepts/content-addressing/#identifier-formats) in case-insensitive encoding such as Base32 or Base36. When using IPFS path resolution, the requested CID will be converted before the redirect.
 
-
-## Development Notes
-
- What Log Parsing Features to look for?(ingest quickly, parse quickly, get to intrepretation)
-- Automation
-- Customization
-- Visualization
-
-## extra notes- 
-
+## Incices Types
 
 ### Data-Points
 - How many times an IPFS object was requested via the leto.gg Gateway?
