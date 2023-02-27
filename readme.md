@@ -1,8 +1,9 @@
  # Preliminary Build on Elastic Observability + Prometheus
- 
- ![Screenshot 2023-02-24 at 5 08 52 PM](https://user-images.githubusercontent.com/30084404/221318202-2308b487-ca6b-4f3c-84fd-531b6d44178c.png)
- 
-  Anonymous metrics engine built on top of the Leto Caching Gateway
+
+Anonymous metrics engine built on top of the Leto Caching Gateway
+
+ ![Screenshot 2023-02-26 at 9 54 08 PM](https://user-images.githubusercontent.com/30084404/221470636-4f21408b-ade0-4950-8eb0-b023316354f0.png)
+
  
  ## Anonymous Gateway Metrics API
 
