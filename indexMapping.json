@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "properties": {
+      "cid": {
+        "type": "keyword"
+      },
+      "timestamp": {
+        "type": "date"
+      },
+      "content": {
+        "type": "text"
+      },
+      "tags": {
+        "type": "keyword"
+      },
+      "metadata": {
+        "type": "object",
+        "enabled": false
+      }
+    }
+  }
+}
