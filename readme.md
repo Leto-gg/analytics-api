@@ -42,7 +42,7 @@ Hello leto! 😎
 
 Please note that subdomain resolution is only supported with [CIDv1](https://docs.ipfs.io/concepts/content-addressing/#identifier-formats) in case-insensitive encoding such as Base32 or Base36. When using IPFS path resolution, the requested CID will be converted before the redirect.
 
-## Incices Types
+## Indices Types
 
 ### Data-Points
 - How many times an IPFS object was requested via the leto.gg Gateway?
