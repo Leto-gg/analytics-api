@@ -1,4 +1,4 @@
- # Preliminary Build on Elastic Observability + Prometheus
+ # Preliminary Build on Elastic Observability + Prometheus W.I.P.
 
 
 ![letoFlowDarkMode](https://user-images.githubusercontent.com/30084404/226833838-3d252901-4c50-4cd2-8f13-82869cbe5fef.png)
@@ -43,7 +43,7 @@ Hello leto! 😎
 
 Please note that subdomain resolution is only supported with [CIDv1](https://docs.ipfs.io/concepts/content-addressing/#identifier-formats) in case-insensitive encoding such as Base32 or Base36. When using IPFS path resolution, the requested CID will be converted before the redirect.
 
-## Incices Types
+## Indices Types
 
 ### Data-Points
 - How many times an IPFS object was requested via the leto.gg Gateway?
