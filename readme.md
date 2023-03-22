@@ -1,6 +1,6 @@
  # Preliminary Build on Elastic Observability + Prometheus
 
-Anonymous metrics engine built on top of the Leto Caching Gateway
+
 ![letoFlowDarkMode](https://user-images.githubusercontent.com/30084404/226833838-3d252901-4c50-4cd2-8f13-82869cbe5fef.png)
 
 
