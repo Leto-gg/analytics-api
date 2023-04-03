@@ -1,7 +1,8 @@
  # Preliminary Build on Elastic Observability + Prometheus W.I.P.
 
 
-![letoFlowDarkMode](https://user-images.githubusercontent.com/30084404/226833838-3d252901-4c50-4cd2-8f13-82869cbe5fef.png)
+![greyMetricsImage](https://user-images.githubusercontent.com/30084404/229537531-733c9c3e-8646-4ade-a95c-a07a7471c2d6.png)
+
 
 
 
