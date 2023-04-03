@@ -1,8 +1,6 @@
  # Preliminary Build
 
-
-![greyMetricsImage](https://user-images.githubusercontent.com/30084404/229537531-733c9c3e-8646-4ade-a95c-a07a7471c2d6.png)
-
+![LetoLoginFlow](https://user-images.githubusercontent.com/30084404/229651710-06f94136-9259-44f0-a5d1-6b00acb3d0d8.png)
 
 
 
