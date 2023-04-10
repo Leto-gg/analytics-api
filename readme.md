@@ -1,7 +1,4 @@
- # Metrics API Preliminary Build
-
-
-![greyMetricsImage](https://user-images.githubusercontent.com/30084404/229537531-733c9c3e-8646-4ade-a95c-a07a7471c2d6.png)
+ # Metrics API WIP!
 
 
 
