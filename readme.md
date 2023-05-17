@@ -11,22 +11,36 @@
  ## Anonymous Gateway Metrics API
 
 With a simple public website or a HTTP GET request, you can tell how many times an IPFS object was requested/served to a user.
-API endpoint URL
-The main public API endpoint URL for LetoMetrics is https://leto.metrics.gg. All endpoints documented should be made relative to this root URL. 
-For example, to request the /cid/ endpoint, send your request to 
-https://leto.metrics.gg/cid/ and leto.metrics.gg will respond with something like
+## Leto Metrics API
 
- ` { "value": "/ipfs/QmPqrEHJTex2CPbqNULCmbSFJT3boBwAAfMb5UjvXtKjEe",
-"requests": "93", }
-`
 
-## Leto.gg Metrics API Usage
- 
- - Give the engine a CID, and it will return if it has metrics on that specific file
-The response currently is in JSON format
+- API is deployed at https://api.leto.gg/analytics (POST request with pagination support)
 
-## Usage
+- Provide at least one cid to the api for it to work.
 
+- Default CIDs size limit is 10, max is 50 CIDs per request (for now, can be changed if required).
+
+Sample JSON Requests are as follows: 	
+
+No Pagination- {
+  "cids": [
+    "bafkreiedazv25tc7idkywbco3jxrywdnb3g4ff3pqegrmshhtcpk5zgsyi",
+    "bafkreigt25bt7a6fdnx72jhtnnoezvoihcxxlvyc6kpxkfonayxrqnpiie"
+  ]
+}
+
+
+With Pagination-
+{
+  "cids": [
+    "bafkreiedazv25tc7idkywbco3jxrywdnb3g4ff3pqegrmshhtcpk5zgsyi",
+    "bafkreigt25bt7a6fdnx72jhtnnoezvoihcxxlvyc6kpxkfonayxrqnpiie"
+  ],
+  "page": 1,
+  "size": 5
+}
+
+Make the request to https://api.leto.gg/analytics 
 
 
 
