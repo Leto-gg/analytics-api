@@ -17,7 +17,7 @@ With a simple public website or a HTTP GET request, you can tell how many times 
 
 - Default CIDs size limit is 10, max is 50 CIDs per request (for now, can be changed if required).
 
-Sample JSON Requests are as follows: 	
+### Sample JSON Requests are as follows: 	
 
 No Pagination- {
   "cids": [
