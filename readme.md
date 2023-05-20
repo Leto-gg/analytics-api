@@ -19,12 +19,7 @@ With a simple public website or a HTTP GET request, you can tell how many times 
 
 ### Sample JSON Requests are as follows: 	
 
-No Pagination- {
-  "cids": [
-    "bafkreiedazv25tc7idkywbco3jxrywdnb3g4ff3pqegrmshhtcpk5zgsyi",
-    "bafkreigt25bt7a6fdnx72jhtnnoezvoihcxxlvyc6kpxkfonayxrqnpiie"
-  ]
-}
+No Pagination- {"cids":["bafkreiedazv25tc7idkywbco3jxrywdnb3g4ff3pqegrmshhtcpk5zgsyi","bafkreigt25bt7a6fdnx72jhtnnoezvoihcxxlvyc6kpxkfonayxrqnpiie"]}
 
 
 With Pagination-
