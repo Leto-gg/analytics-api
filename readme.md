@@ -9,7 +9,7 @@
 
 ## Leto Metrics API
 
-With a simple public website or a HTTP GET request, you can tell how many times an IPFS object was requested/served to a user.
+With a simple HTTP POST Request, you can tell how many times an IPFS object was requested/served to a user.
 
 - API is deployed at https://api.leto.gg/analytics (POST request with pagination support)
 
