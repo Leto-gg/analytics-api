@@ -1,7 +1,5 @@
 # Leto REST APIs
 
-![Leto-API-Flow](https://user-images.githubusercontent.com/30084404/232287746-9205c249-24fa-4bde-92fb-30c828dac0d3.png)
-
 ## Analytics
 
 This API allows you to fetch analytics tracked by the `leto.gg` platform for the requested CIDs.
